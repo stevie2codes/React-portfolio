@@ -1,5 +1,7 @@
 .nav-link {
-  color: red;
+  color: rgb(116, 3, 3);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.6rem;
 }
 
 .nameContainer {
@@ -13,10 +15,16 @@
 }
 
 .firstName {
-  color: red;
+  color: rgb(116, 4, 4);
   font-size: 40px;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  z-index: 1;
+}
+
+.card-body {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.card {
+  border: none;
+  box-shadow: -4px -4px 14px rgb(55, 28, 28), 4px 4px 14px rgb(36, 11, 11);
 }
