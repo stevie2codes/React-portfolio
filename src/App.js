@@ -5,26 +5,25 @@ import Home from "./components/main";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import About from "./components/about";
-import { motion } from "framer-motion";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <div className="nav nav-pills my-3 d-flex justify-content-center">
+        <div className="nav nav-pills d-flex justify-content-end">
           <div className="navigation">
-            {/* <img src={logo} className="logo" alt="Logo Image" /> */}
+            <h1 className="logo">StephenWebb</h1>
             <div className="nav-items d-flex">
-              <Link to="/" className="nav-link  m-2">
+              <Link to="/" className="nav-link ">
                 Home
               </Link>
-              <Link to="/About" className="nav-link  m-2">
+              <Link to="/About" className="nav-link ">
                 About
               </Link>
-              <Link to="/Projects" className="nav-link  m-2">
+              <Link to="/Projects" className="nav-link ">
                 Projects
               </Link>
-              <Link to="/Contact" className="nav-link  m-2">
+              <Link to="/Contact" className="nav-link ">
                 Contact
               </Link>
             </div>

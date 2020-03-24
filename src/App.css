@@ -1,12 +1,25 @@
+.logo {
+  position: absolute;
+  left: 20px;
+  color: rgb(201, 145, 71);
+  font-size: 4vmin;
+  margin: 15px;
+  font-family: "Sacramento", cursive;
+}
+
 .nav-link {
+  margin-left: -10px;
+  margin-right: 0px;
   color: brown;
   font-family: "Oswald", sans-serif;
-  font-size: 1.6rem;
+  font-size: 3vmin;
+  position: sticky;
 }
 .nav-link:hover {
   color: rgb(201, 145, 71);
   transform: scale(1.08);
 }
+
 .card-body {
   background-color: rgb(15, 15, 15);
   color: white;
@@ -29,4 +42,9 @@
 .gitIcon:hover,
 .linkIcon:hover {
   transform: scale(1.07);
+}
+.cardContainer {
+  max-width: 80vw;
+
+  margin: 0 auto;
 }
