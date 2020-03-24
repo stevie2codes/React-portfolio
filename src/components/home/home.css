@@ -1,0 +1,30 @@
+.nameContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.firstName,
+.lastName {
+  font-family: "Oswald", sans-serif;
+  font-size: 5rem;
+  margin: 10px;
+  letter-spacing: 4px;
+  color: brown;
+}
+
+.element {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(201, 145, 71);
+  margin: 0 auto;
+  animation: swell 1s infinite ease-in-out alternate-reverse;
+}
+@keyframes swell {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

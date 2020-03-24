@@ -1,9 +1,12 @@
 import React from "react";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import ExitToAppIcon from "@material-ui/icons/ExitToApp";
+import { rgbToHex } from "@material-ui/core";
 
 function Projects(props) {
   return (
-    <div className="cardContainer animated fadeIn">
-      <div className="card-deck m-5">
+    <div className="cardContainer animated fadeIn slow">
+      <div className="card-columns m-5 ">
         <div className="card">
           <img
             src={require("./projectPics/preview.png")}
@@ -16,7 +19,12 @@ function Projects(props) {
               A react application utilizing pagination, filtering and sorting.
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <a href="https://github.com/stevie2codes/React-Employee-Directory">
+                <GitHubIcon className="gitIcon" />
+                <span className="gitLink">Repo</span>
+              </a>
+
+              <ExitToAppIcon className="linkIcon" />
             </p>
           </div>
         </div>
@@ -27,7 +35,7 @@ function Projects(props) {
             alt="nutri find preview"
           />
           <div className="card-body">
-            <h5 className="card-title">Card title</h5>
+            <h5 className="card-title">Nutri-Find</h5>
             <p className="card-text">
               A recipe keeper saving recipes in a database and searching a 3rd
               party API to find new ones!
@@ -48,6 +56,17 @@ function Projects(props) {
             <p className="card-text">
               A space exploration app utilizing the NASA API
             </p>
+            <p className="card-text">
+              <small className="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div className="card ">
+          <div
+            className="card-body"
+            style={{ backgroundColor: "brown", color: "black" }}
+          >
+            <p className="card-text">"Dream, Design , Create"</p>
             <p className="card-text">
               <small className="text-muted">Last updated 3 mins ago</small>
             </p>
@@ -81,7 +100,12 @@ function Projects(props) {
               A space exploration app utilizing the NASA API
             </p>
             <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <a href="https://github.com/stevie2codes/React-Employee-Directory">
+                <GitHubIcon className="gitIcon" />
+                <span className="gitLink">Repo</span>
+              </a>
+
+              <ExitToAppIcon className="linkIcon" />
             </p>
           </div>
         </div>
