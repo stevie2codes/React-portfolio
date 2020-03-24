@@ -3,7 +3,7 @@
   justify-content: flex-start;
   margin-top: 20vh;
   margin-left: 20px;
-  max-height: 90vh;
+  max-height: 20%;
 }
 .subText {
   position: absolute;
@@ -12,36 +12,55 @@
 
 .webText {
   font-family: "Oswald", sans-serif;
-  font-size: 30vw;
+  font-size: 20vmin;
   margin: 10px;
-  letter-spacing: 4px;
+
+  letter-spacing: 2.3vw;
   color: brown;
 }
 .designText {
-  font-size: 5vw;
+  font-size: 4vh;
   color: rgb(201, 145, 71);
   font-family: "Oswald", sans-serif;
-  letter-spacing: 4vw;
+  letter-spacing: 2.3vw;
 }
 .devText {
-  font-size: 5vw;
+  font-size: 4vh;
   color: rgb(201, 145, 71);
   font-family: "Oswald", sans-serif;
-  line-height: 12.5;
-  letter-spacing: 3.3vw;
+  line-height: 22;
+
+  letter-spacing: 2.3vw;
+}
+@media only screen and (max-width: 600px) {
+  .devText {
+    line-height: 15;
+  }
 }
 
 .homeIconList {
-  color: rgb(201, 145, 71);
-  z-index: -2;
   position: relative;
   width: auto;
   bottom: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeIconList {
+    bottom: -100px;
+    left: -100px;
+  }
+}
+.GitHubIcon,
+.linkInIcon,
+.mailIcon {
+  color: rgb(201, 145, 71);
 }
 .GitHubIcon:hover,
 .linkInIcon:hover,
 .mailIcon:hover {
   cursor: pointer;
   color: brown;
-  transform: scale(1.1);
+  transform: scale(1.2);
+  transition: ease-in-out;
+  transition-duration: 0.2s;
 }

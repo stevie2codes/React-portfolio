@@ -1,7 +1,6 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import { rgbToHex } from "@material-ui/core";
 
 function Projects(props) {
   return (

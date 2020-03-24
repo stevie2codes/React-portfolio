@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import Home from "./components/main";
+// import Home from "./components/main";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
-import About from "./components/about";
-
+import About from "./components/about/about";
+import HomeContent from "./components/home/homeContent";
 function App() {
   return (
     <div>
@@ -29,7 +29,7 @@ function App() {
             </div>
           </div>
         </div>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={HomeContent} />
         <Route path="/About" component={About} />
         <Route path="/Projects" component={Projects} />
         <Route path="/Contact" component={Contact} />
