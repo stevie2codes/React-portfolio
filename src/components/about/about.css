@@ -4,20 +4,20 @@
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 20%;
+  top: 22%;
   border-radius: 50%;
-  width: 25vh;
-  height: 25vh;
-  background-color: rgb(15, 15, 15);
+  width: 33vh;
+  height: 33vh;
+  background-color: rgb(201, 145, 71);
   box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
 }
 
 .portPic {
-  width: 140px;
+  width: 23vh;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 20%;
+  top: 25%;
   border-radius: 50%;
 }
 
@@ -25,13 +25,11 @@
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 60%;
-
-  width: 80%;
+  top: 65%;
+  width: 70%;
 }
 .brand-state {
   font-size: 2.5vmax;
-
   color: brown;
   font-family: "Oswald", sans-serif;
 }
