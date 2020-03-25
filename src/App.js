@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-// import Home from "./components/main";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
 import About from "./components/about/about";

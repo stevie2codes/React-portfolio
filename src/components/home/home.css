@@ -28,26 +28,28 @@
   font-size: 4vh;
   color: rgb(201, 145, 71);
   font-family: "Oswald", sans-serif;
-  line-height: 22;
+  line-height: 10;
 
   letter-spacing: 2.3vw;
 }
 @media only screen and (max-width: 600px) {
   .devText {
-    line-height: 15;
+    line-height: 14;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .designText {
+    margin-top: -20px;
   }
 }
 
 .homeIconList {
-  position: relative;
-  width: auto;
-  bottom: 200px;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
   .homeIconList {
-    bottom: -100px;
-    left: -100px;
+    margin-top: 200px;
   }
 }
 .GitHubIcon,

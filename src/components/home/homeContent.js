@@ -7,9 +7,10 @@ import MailOutlineIcon from "@material-ui/icons/MailOutline";
 const HomeContent = props => {
   const styles = {
     fontSize: "8vh",
+    display: "block",
     margin: 10,
     backgroundColor: "rgb(15, 15, 15)",
-    boxShadow: `-4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0)`,
+    boxShadow: `-4px -4px 14px rgb(33, 33, 33), 4px 4px 14px rgb(0, 0, 0)`,
     padding: "10",
     borderRadius: `50%`
   };
@@ -23,7 +24,7 @@ const HomeContent = props => {
             <h1 className="devText animated slideInRight slow">DEVELOPER</h1>
           </div>
         </div>
-        <div className="homeIconList d-flex mr-5  justify-content-end ">
+        <div className="homeIconList d-flex  ">
           <a href="https://github.com/stevie2codes">
             <GitHubIcon style={styles} className="GitHubIcon" />
           </a>

@@ -21,23 +21,34 @@
 }
 
 .card-body {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   background-color: rgb(15, 15, 15);
   color: white;
   font-family: "Oswald", sans-serif;
 }
 .card {
-  border: 1px solid rgb(201, 145, 71);
-  box-shadow: -4px -4px 14px rgb(0, 0, 0), 4px 4px 14px rgb(0, 0, 0);
+  border: 4px solid brown;
+
+  border-radius: 25px;
+  box-shadow: -4px -4px 14px rgb(34, 34, 34), 4px 4px 14px rgb(0, 0, 0);
   display: flex;
   margin: 20px auto;
   justify-content: center;
   text-align: center;
+  max-height: 100vh;
 }
-
+.card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#quoteDiv {
+  border: 4px solid black;
+}
 .gitIcon,
 .linkIcon {
-  margin: 20px;
-  color: brown;
+  margin: 10px;
+  color: rgb(201, 145, 71);
 }
 .gitIcon:hover,
 .linkIcon:hover {
@@ -45,6 +56,5 @@
 }
 .cardContainer {
   max-width: 80vw;
-
   margin: 0 auto;
 }

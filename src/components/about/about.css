@@ -4,26 +4,34 @@
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 50%;
+  top: 20%;
   border-radius: 50%;
-  width: 40vh;
-  height: 40vh;
+  width: 25vh;
+  height: 25vh;
   background-color: rgb(15, 15, 15);
   box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
 }
 
 .portPic {
-  width: 190px;
+  width: 140px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
-  top: 51%;
+  top: 20%;
   border-radius: 50%;
 }
 
+.aboutText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 60%;
+
+  width: 80%;
+}
 .brand-state {
-  font-size: 4vh;
-  min-width: 30%;
+  font-size: 2.5vmax;
+
   color: brown;
   font-family: "Oswald", sans-serif;
 }

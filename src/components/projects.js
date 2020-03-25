@@ -20,7 +20,6 @@ function Projects(props) {
             <p className="card-text">
               <a href="https://github.com/stevie2codes/React-Employee-Directory">
                 <GitHubIcon className="gitIcon" />
-                <span className="gitLink">Repo</span>
               </a>
 
               <ExitToAppIcon className="linkIcon" />
@@ -63,12 +62,10 @@ function Projects(props) {
         <div className="card ">
           <div
             className="card-body"
+            id="quoteDiv"
             style={{ backgroundColor: "brown", color: "black" }}
           >
             <p className="card-text">"Dream, Design , Create"</p>
-            <p className="card-text">
-              <small className="text-muted">Last updated 3 mins ago</small>
-            </p>
           </div>
         </div>
         <div className="card">
@@ -101,7 +98,6 @@ function Projects(props) {
             <p className="card-text">
               <a href="https://github.com/stevie2codes/React-Employee-Directory">
                 <GitHubIcon className="gitIcon" />
-                <span className="gitLink">Repo</span>
               </a>
 
               <ExitToAppIcon className="linkIcon" />
