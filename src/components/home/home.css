@@ -16,7 +16,7 @@
   margin: 10px;
 
   letter-spacing: 2.3vw;
-  color: brown;
+  color: rgb(216, 216, 216);
 }
 .designText {
   font-size: 4vh;
@@ -62,14 +62,16 @@
 
 .GitHubIcon,
 .linkInIcon,
-.mailIcon {
-  color: rgb(201, 145, 71);
+.mailIcon,
+.resumeIcon {
+  color: rgb(116, 32, 32);
 }
 .GitHubIcon:hover,
 .linkInIcon:hover,
-.mailIcon:hover {
+.mailIcon:hover,
+.resumeIcon:hover {
   cursor: pointer;
-  color: brown;
+  color: rgb(201, 145, 71);
   transform: scale(1.2);
   transition: ease-in-out;
   transition-duration: 0.2s;

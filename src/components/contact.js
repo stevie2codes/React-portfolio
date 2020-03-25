@@ -3,7 +3,9 @@ import React from "react";
 function Contact(props) {
   return (
     <div>
-      <h1>Contact</h1>
+      <div className="element">
+        <h1 className="sectionTag">Contact</h1>
+      </div>
     </div>
   );
 }
