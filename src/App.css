@@ -54,7 +54,16 @@
 .linkIcon:hover {
   transform: scale(1.07);
 }
-.cardContainer {
-  max-width: 80vw;
+/* .container {
+  max-width: 90vw;
   margin: 0 auto;
+} */
+
+.sectionTag {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  font-family: "Sacramento", cursive;
+  font-size: 8vh;
 }
