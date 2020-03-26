@@ -25,12 +25,22 @@ function Projects(props) {
                 A react application utilizing pagination, filtering and sorting.
               </p>
               <p className="card-text">
-                <Tooltip TransitionComponent={Zoom} title="Github Repo" arrow>
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
                   <a href="https://github.com/stevie2codes/React-Employee-Directory">
                     <GitHubIcon fontSize="large" className="gitIcon" />
                   </a>
                 </Tooltip>
-                <Tooltip TransitionComponent={Zoom} title="Launch application">
+                <Tooltip
+                  placement="right"
+                  arrow
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
                   <a href="https://fast-mesa-07521.herokuapp.com/">
                     <ExitToAppIcon fontSize="large" className="linkIcon" />
                   </a>
@@ -51,12 +61,21 @@ function Projects(props) {
                 party API to find new ones!
               </p>
               <p className="card-text">
-                <Tooltip TransitionComponent={Zoom} title="Github Repo" arrow>
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
                   <a href="https://github.com/stevie2codes/Nutri-Find">
                     <GitHubIcon fontSize="large" className="gitIcon" />
                   </a>
                 </Tooltip>
-                <Tooltip TransitionComponent={Zoom} title="Launch application">
+                <Tooltip
+                  placement="right"
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
                   <a href="https://calm-woodland-11785.herokuapp.com/">
                     <ExitToAppIcon fontSize="large" className="linkIcon" />
                   </a>
@@ -77,12 +96,21 @@ function Projects(props) {
                 where I completed the full design.
               </p>
               <p className="card-text">
-                <Tooltip TransitionComponent={Zoom} title="Github Repo" arrow>
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
                   <a href="https://github.com/koganp42/Outer_Earth">
                     <GitHubIcon fontSize="large" className="gitIcon" />
                   </a>
                 </Tooltip>
-                <Tooltip TransitionComponent={Zoom} title="Launch application">
+                <Tooltip
+                  placement="right"
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
                   <a href="https://koganp42.github.io/Outer_Earth/">
                     <ExitToAppIcon fontSize="large" className="linkIcon" />
                   </a>
@@ -99,12 +127,12 @@ function Projects(props) {
                 border: "2px solid black"
               }}
             >
-              <blockquote class="blockquote text-center text-dark">
-                <p class="mb-0">
+              <blockquote className="blockquote text-center text-dark">
+                <p className="mb-0">
                   “Two of the most important characteristics of good design are
                   discoverability and understanding.”
                 </p>
-                <footer class="blockquote-footer text-dark">
+                <footer className="blockquote-footer text-dark">
                   Donald A. Norman{" "}
                   <cite title="Source Title">The Design of Everday Things</cite>
                 </footer>
@@ -125,12 +153,21 @@ function Projects(props) {
                 utilizing jQuery for DOM manipulation.
               </p>
               <p className="card-text">
-                <Tooltip TransitionComponent={Zoom} title="Github Repo" arrow>
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
                   <a href="https://github.com/stevie2codes/Weather-Dashboard">
                     <GitHubIcon fontSize="large" className="gitIcon" />
                   </a>
                 </Tooltip>
-                <Tooltip TransitionComponent={Zoom} title="Launch application">
+                <Tooltip
+                  placement="right"
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
                   <a href="https://stevie2codes.github.io/Weather-Dashboard/">
                     <ExitToAppIcon fontSize="large" className="linkIcon" />
                   </a>
@@ -151,12 +188,21 @@ function Projects(props) {
                 storage.
               </p>
               <p className="card-text">
-                <Tooltip TransitionComponent={Zoom} title="Github Repo" arrow>
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
                   <a href="https://github.com/stevie2codes/health-quiz">
                     <GitHubIcon fontSize="large" className="gitIcon" />
                   </a>
                 </Tooltip>
-                <Tooltip TransitionComponent={Zoom} title="Launch application">
+                <Tooltip
+                  placement="right"
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
                   <a href="https://stevie2codes.github.io/health-quiz/">
                     <ExitToAppIcon fontSize="large" className="linkIcon" />
                   </a>
@@ -179,12 +225,21 @@ function Projects(props) {
                 generate HTML
               </p>
               <p className="card-text">
-                <Tooltip TransitionComponent={Zoom} title="Github Repo" arrow>
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
                   <a href="https://github.com/stevie2codes/Burger-Log">
                     <GitHubIcon fontSize="large" className="gitIcon" />
                   </a>
                 </Tooltip>
-                <Tooltip TransitionComponent={Zoom} title="Launch application">
+                <Tooltip
+                  placement="right"
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
                   <a href="https://warm-brook-07437.herokuapp.com/">
                     <ExitToAppIcon fontSize="large" className="linkIcon" />
                   </a>
