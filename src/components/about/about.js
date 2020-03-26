@@ -3,7 +3,7 @@ import "./about.css";
 
 function About(props) {
   return (
-    <div className="animated fadeIn slow">
+    <div className="animated fadeIn">
       <div className="element"></div>
       <img
         src={require("../projectPics/FullSizeRender.png")}

@@ -22,7 +22,7 @@
 
 .container {
   margin-top: 40vh;
-  max-width: 90vw;
+  width: 90vw;
 }
 .brand-state,
 .skillList {

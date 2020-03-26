@@ -5,7 +5,7 @@ import Icons from "../icons";
 function Contact(props) {
   return (
     <React.Fragment>
-      <div className="element">
+      <div className="element animated fadeIn">
         <h1 className="sectionTag">Contact</h1>
       </div>
       <div className="contactContainer container">

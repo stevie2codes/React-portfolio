@@ -8,11 +8,11 @@ import "./projects.css";
 function Projects(props) {
   return (
     <div>
-      <div className="element animated fadeIn slow">
+      <div className="element animated fadeIn">
         <h1 className="sectionTag">Projects</h1>
       </div>
-      <div className="container animated fadeIn slow">
-        <div className="card-columns m-5 ">
+      <div className="container animated fadeIn">
+        <div className="card-columns  m-5 ">
           <div className="card">
             <img
               src={require("../projectPics/preview.png")}
