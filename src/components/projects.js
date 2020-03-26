@@ -248,7 +248,6 @@ function Projects(props) {
             </div>
           </div>
         </div>
-        <Icons />
       </div>
     </div>
   );

@@ -13,7 +13,6 @@ const HomeContent = props => {
             <h1 className="devText animated slideInRight slow">DEVELOPER</h1>
           </div>
         </div>
-        <Icons />
       </div>
     </React.Fragment>
   );

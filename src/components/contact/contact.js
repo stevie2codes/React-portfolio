@@ -1,23 +1,19 @@
 import React from "react";
 import "./contact.css";
+import Icons from "../icons";
 
 function Contact(props) {
   return (
-    <div>
+    <React.Fragment>
       <div className="element">
         <h1 className="sectionTag">Contact</h1>
       </div>
-      <div className="container contactContainer">
-        <img
-          className="contactImg"
-          src={require("../projectPics/meetup.jpg")}
-          alt="meetup"
-        />
-        <div className="textContainer ">
-          <h3 className="contactTextHead">Lets Get In Touch</h3>
-        </div>
+      <div className="contactContainer container">
+        <h3 className="contactTextHead">Lets get in touch!</h3>
+
+        <Icons />
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 

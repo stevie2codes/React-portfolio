@@ -3,32 +3,43 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
+import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 
 const Icons = props => {
   const styles = {
     fontSize: "8vh",
     display: "block",
-    margin: 10,
+    margin: 20,
     backgroundColor: "rgb(15, 15, 15)",
-    boxShadow: `-4px -4px 14px rgb(33, 33, 33), 4px 4px 14px rgb(0, 0, 0)`,
+    boxShadow: `-4px -4px 14px rgb(30, 30, 30), 4px 4px 14px rgb(0, 0, 0)`,
     padding: "10",
     borderRadius: `50%`
   };
   return (
-    <div className="homeIconList d-flex  ">
+    <div className="homeIconList d-flex flex-wrap ">
       <a href="https://github.com/stevie2codes">
         <GitHubIcon style={styles} className="GitHubIcon" />
+        GitHub
       </a>
       <a href="https://www.linkedin.com/in/js-webb/">
         <LinkedInIcon style={styles} className="linkInIcon" />
+        LinkedIn
       </a>
       <a
         href="mailto:j.stephenwebb@gmail.com.com?Subject=Job%20inquiry"
         target="_top"
       >
         <MailOutlineIcon style={styles} className="mailIcon" />
+        E-Mail
       </a>
-      <AttachFileIcon style={styles} className="resumeIcon" />
+      <a href="tel:+615943-8252">
+        <PhoneIphoneIcon style={styles} />
+        615-943-8252
+      </a>
+      <a href="/src/Stephen-Webb.pdf">
+        <AttachFileIcon style={styles} className="resumeIcon" />
+        Resume
+      </a>
     </div>
   );
 };

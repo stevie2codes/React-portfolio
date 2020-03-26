@@ -35,7 +35,6 @@ function About(props) {
           </div>
         </div>
       </div>
-      <Icons />
     </div>
   );
 }
