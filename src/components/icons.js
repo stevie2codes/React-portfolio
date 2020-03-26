@@ -11,7 +11,7 @@ const Icons = props => {
     fontSize: "8vh",
     display: "block",
     margin: 20,
-    color: "purple",
+    // color: "rgb(201, 145, 71)",
     backgroundColor: "rgb(15, 15, 15)",
     boxShadow: `-4px -4px 14px rgb(30, 30, 30), 4px 4px 14px rgb(0, 0, 0)`,
     padding: "10",
@@ -35,7 +35,7 @@ const Icons = props => {
         E-Mail
       </a>
       <a href="tel:+615943-8252">
-        <PhoneIphoneIcon style={styles} />
+        <PhoneIphoneIcon style={styles} className="phoneIcon" />
         615-943-8252
       </a>
 

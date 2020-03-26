@@ -26,3 +26,22 @@
   color: rgb(201, 145, 71);
   border: none;
 }
+
+.GitHubIcon,
+.linkInIcon,
+.mailIcon,
+.resumeIcon,
+.phoneIcon {
+  color: rgb(116, 32, 32);
+}
+.GitHubIcon:hover,
+.linkInIcon:hover,
+.mailIcon:hover,
+.resumeIcon:hover,
+.phoneIcon:hover {
+  cursor: pointer;
+  color: rgb(201, 145, 71);
+  transform: scale(1.2);
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}

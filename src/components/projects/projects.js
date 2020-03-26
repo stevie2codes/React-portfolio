@@ -3,6 +3,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 import Tooltip from "@material-ui/core/Tooltip";
 import Zoom from "@material-ui/core/Zoom";
+import "./projects.css";
 
 function Projects(props) {
   return (
@@ -14,7 +15,7 @@ function Projects(props) {
         <div className="card-columns m-5 ">
           <div className="card">
             <img
-              src={require("./projectPics/preview.png")}
+              src={require("../projectPics/preview.png")}
               className="card-img"
               alt="employee directory preview"
             />
@@ -49,7 +50,7 @@ function Projects(props) {
           </div>
           <div className="card">
             <img
-              src={require("./projectPics/nutriPreview.png")}
+              src={require("../projectPics/nutriPreview.png")}
               className="card-img-top"
               alt="nutri find preview"
             />
@@ -84,7 +85,7 @@ function Projects(props) {
           </div>
           <div className="card">
             <img
-              src={require("./projectPics/outerEarth.png")}
+              src={require("../projectPics/outerEarth.png")}
               className="card-img-top"
               alt="Outer earth preview"
             />
@@ -142,7 +143,7 @@ function Projects(props) {
 
           <div className="card">
             <img
-              src={require("./projectPics/WD-Shot.png")}
+              src={require("../projectPics/WD-Shot.png")}
               className="card-img-top"
               alt="Outer earth preview"
             />
@@ -177,7 +178,7 @@ function Projects(props) {
           </div>
           <div className="card">
             <img
-              src={require("./projectPics/healthQuiz.png")}
+              src={require("../projectPics/healthQuiz.png")}
               className="card-img-top"
               alt="Outer earth preview"
             />
@@ -212,7 +213,7 @@ function Projects(props) {
           </div>
           <div className="card">
             <img
-              src={require("./projectPics/burger.png")}
+              src={require("../projectPics/burger.png")}
               className="card-img-top"
               alt="Outer earth preview"
             />
