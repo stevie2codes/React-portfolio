@@ -1,7 +1,6 @@
 import React from "react";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import Icons from "../components/icons";
 import Tooltip from "@material-ui/core/Tooltip";
 import Zoom from "@material-ui/core/Zoom";
 
@@ -129,8 +128,9 @@ function Projects(props) {
             >
               <blockquote className="blockquote text-center text-dark">
                 <p className="mb-0">
-                  “Two of the most important characteristics of good design are
-                  discoverability and understanding.”
+                  “Good design is actually a lot harder to notice than poor
+                  design, in part because good designs fit our needs so well
+                  that the design is invisible.”
                 </p>
                 <footer className="blockquote-footer text-dark">
                   Donald A. Norman{" "}

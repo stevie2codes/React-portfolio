@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import Icons from "../icons";
 
 function About(props) {
   return (

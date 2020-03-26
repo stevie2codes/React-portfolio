@@ -1,6 +1,5 @@
 import React from "react";
 import "./home.css";
-import Icons from "../icons";
 
 const HomeContent = props => {
   return (

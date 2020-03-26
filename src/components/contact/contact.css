@@ -22,3 +22,7 @@
   font-family: "Oswald", sans-serif;
   color: rgb(251, 239, 239);
 }
+.homeIconList a {
+  color: rgb(201, 145, 71);
+  border: none;
+}

@@ -4,12 +4,14 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
+import "../components/projectPics/Stephen-Webb.pdf";
 
 const Icons = props => {
   const styles = {
     fontSize: "8vh",
     display: "block",
     margin: 20,
+    color: "purple",
     backgroundColor: "rgb(15, 15, 15)",
     boxShadow: `-4px -4px 14px rgb(30, 30, 30), 4px 4px 14px rgb(0, 0, 0)`,
     padding: "10",
@@ -36,7 +38,11 @@ const Icons = props => {
         <PhoneIphoneIcon style={styles} />
         615-943-8252
       </a>
-      <a href="/src/Stephen-Webb.pdf">
+
+      <a
+        href={require("../components/projectPics/Stephen-Webb.pdf")}
+        download={"Stephen-Webb.pdf"}
+      >
         <AttachFileIcon style={styles} className="resumeIcon" />
         Resume
       </a>
