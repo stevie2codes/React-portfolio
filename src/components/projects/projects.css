@@ -1,6 +1,6 @@
 .card {
   border: none;
-  margin: 10px;
+  margin-top: 30px;
   box-shadow: -1px -2px 8px 0px rgba(141, 91, 11, 0.431),
     1px 2px 8px 0px rgba(141, 91, 11, 0.404);
   display: flex;
@@ -10,7 +10,8 @@
 
 .gitIcon,
 .linkIcon {
-  margin: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   color: rgb(201, 145, 71);
 }
 .gitIcon:hover,

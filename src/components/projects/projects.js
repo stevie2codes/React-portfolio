@@ -12,7 +12,7 @@ function Projects(props) {
         <h1 className="sectionTag">Projects</h1>
       </div>
       <div className="container animated fadeIn">
-        <div className="card-columns  m-5 ">
+        <div className="card-columns">
           <div className="card">
             <img
               src={require("../projectPics/preview.png")}
@@ -121,7 +121,7 @@ function Projects(props) {
 
           <div className="card ">
             <div
-              className="card-body p-5"
+              className=" quote p-1"
               style={{
                 backgroundColor: "rgb(201, 145, 71)",
                 border: "2px solid black"

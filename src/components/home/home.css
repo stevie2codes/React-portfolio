@@ -18,26 +18,26 @@
   color: rgb(220, 220, 220);
 }
 .designText {
-  font-size: 4vh;
+  font-size: 4vmin;
   color: rgb(201, 145, 71);
   font-family: "Oswald", sans-serif;
   letter-spacing: 2.3vw;
 }
 .devText {
-  font-size: 4vh;
+  font-size: 4vmin;
   color: rgb(201, 145, 71);
   font-family: "Oswald", sans-serif;
   line-height: 10;
   letter-spacing: 2.3vw;
 }
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .devText {
-    line-height: 14;
+    line-height: 17;
   }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
   .devText {
-    line-height: 9;
+    line-height: 10.5;
     margin-top: 50px;
   }
 }
@@ -45,7 +45,7 @@
   .designText {
     margin-top: -20px;
   }
-}
+} */
 
 .homeIconList {
   justify-content: center;
