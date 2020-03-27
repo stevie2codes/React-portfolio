@@ -1,6 +1,6 @@
 #React Portfolio
 
-![preview]("/src/components/projectPics/portPreview.png")
+![preview](src/components/projectPics/preview.png)
 
 ##Dependencies
 
