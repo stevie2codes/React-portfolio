@@ -1,8 +1,8 @@
-#React Portfolio
+# React Portfolio
 
-![preview](src/components/projectPics/preview.png)
+![preview](src/components/projectPics/portPreview.png)
 
-##Dependencies
+## Dependencies
 
 - React JS
 - React-Router-DOM
