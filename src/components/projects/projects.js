@@ -124,7 +124,7 @@ function Projects(props) {
               className=" quote p-1"
               style={{
                 backgroundColor: "rgb(201, 145, 71)",
-                border: "2px solid black"
+                borderRadius: 5
               }}
             >
               <blockquote className="blockquote text-center text-dark">
