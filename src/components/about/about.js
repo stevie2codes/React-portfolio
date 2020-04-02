@@ -14,12 +14,12 @@ function About(props) {
         <div className="aboutText row ">
           <p className="brand-state col-md-6 ">
             <span className="aboutSpan d-flex justify-content-center">
-              <span>AboutMe</span>
+              <span>About Me</span>
             </span>
             Full-stack Web Developer with a background in business ownership.
             While attaining a certificate for full-stack development at
             Vanderbilt University, I've discovered passions for creative design
-            diving deep into this feild of development. Excited for life long
+            diving deep into this field of development. Excited for life long
             journey into learning new technologies daily!
           </p>
           <div className="list col-md-6">

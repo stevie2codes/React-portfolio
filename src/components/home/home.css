@@ -30,22 +30,6 @@
   line-height: 10;
   letter-spacing: 2.3vw;
 }
-/* @media only screen and (max-width: 600px) {
-  .devText {
-    line-height: 17;
-  }
-}
-@media only screen and (max-width: 414px) {
-  .devText {
-    line-height: 10.5;
-    margin-top: 50px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .designText {
-    margin-top: -20px;
-  }
-} */
 
 .homeIconList {
   justify-content: center;

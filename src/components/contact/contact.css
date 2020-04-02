@@ -1,7 +1,7 @@
 .contactContainer {
   text-align: center;
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin-bottom: 40px;
   width: 90vw;
   height: auto;
   background-color: rgb(15, 15, 15);
@@ -9,14 +9,13 @@
   font-family: "Oswald", sans-serif;
   padding: 20px;
   border-radius: 10px;
+  border: 1px solid rgb(20, 20, 20);
   box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
 }
 .contactTextHead {
   font-size: 20vmin;
   display: flex;
   justify-content: center;
-  align-content: center;
-  align-items: center;
   text-align: center;
   margin: 0 auto;
   font-family: "Oswald", sans-serif;
@@ -25,6 +24,7 @@
 .homeIconList a {
   color: rgb(201, 145, 71);
   border: none;
+  text-decoration-color: rgb(116, 32, 32);
 }
 
 .GitHubIcon,
@@ -33,6 +33,7 @@
 .resumeIcon,
 .phoneIcon {
   color: rgb(116, 32, 32);
+  margin: auto;
 }
 .GitHubIcon:hover,
 .linkInIcon:hover,
@@ -44,4 +45,5 @@
   transform: scale(1.2);
   transition: ease-in-out;
   transition-duration: 0.2s;
+  text-decoration-line: overline;
 }
