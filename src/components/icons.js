@@ -40,8 +40,8 @@ const Icons = props => {
       </a>
 
       <a
-        href={require("../components/projectPics/Stephen-Webb.pdf")}
-        download={"Stephen-Webb.pdf"}
+        href="https://docs.google.com/document/d/19fHV-h4JHY16FdCrexx8Ou1h2uPBvczC6WD7RyL_dVI/edit?usp=sharing"
+        // download={"Stephen-Webb.pdf"}
       >
         <AttachFileIcon style={styles} className="resumeIcon" />
         Resume

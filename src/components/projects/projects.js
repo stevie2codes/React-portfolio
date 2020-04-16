@@ -15,6 +15,43 @@ function Projects(props) {
         <div className="card-columns">
           <div className="card">
             <img
+              src={require("../projectPics/homePreview.png")}
+              className="card-img-top"
+              alt="Outer earth preview"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Animade</h5>
+              <p className="card-text">
+                A Full-Stack React application allowing use of premade CSS
+                animations or use the internal IDE to create save and update new
+                animations.
+              </p>
+              <p className="card-text">
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
+                  <a href="https://github.com/stevie2codes/Animade">
+                    <GitHubIcon fontSize="large" className="gitIcon" />
+                  </a>
+                </Tooltip>
+                <Tooltip
+                  placement="right"
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
+                  <a href="https://animade.herokuapp.com/">
+                    <ExitToAppIcon fontSize="large" className="linkIcon" />
+                  </a>
+                </Tooltip>
+              </p>
+            </div>
+          </div>
+
+          <div className="card">
+            <img
               src={require("../projectPics/preview.png")}
               className="card-img"
               alt="employee directory preview"
@@ -83,42 +120,6 @@ function Projects(props) {
               </p>
             </div>
           </div>
-          <div className="card">
-            <img
-              src={require("../projectPics/outerEarth.png")}
-              className="card-img-top"
-              alt="Outer earth preview"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Outer Earth</h5>
-              <p className="card-text">
-                A space exploration app utilizing the NASA API. A team project
-                where I completed the full design.
-              </p>
-              <p className="card-text">
-                <Tooltip
-                  placement="left"
-                  TransitionComponent={Zoom}
-                  title="Github Repo"
-                  arrow
-                >
-                  <a href="https://github.com/koganp42/Outer_Earth">
-                    <GitHubIcon fontSize="large" className="gitIcon" />
-                  </a>
-                </Tooltip>
-                <Tooltip
-                  placement="right"
-                  TransitionComponent={Zoom}
-                  title="Launch application"
-                >
-                  <a href="https://koganp42.github.io/Outer_Earth/">
-                    <ExitToAppIcon fontSize="large" className="linkIcon" />
-                  </a>
-                </Tooltip>
-              </p>
-            </div>
-          </div>
-
           <div className="card ">
             <div
               className=" quote p-1"
@@ -170,6 +171,41 @@ function Projects(props) {
                   title="Launch application"
                 >
                   <a href="https://stevie2codes.github.io/Weather-Dashboard/">
+                    <ExitToAppIcon fontSize="large" className="linkIcon" />
+                  </a>
+                </Tooltip>
+              </p>
+            </div>
+          </div>
+          <div className="card">
+            <img
+              src={require("../projectPics/outerEarth.png")}
+              className="card-img-top"
+              alt="Outer earth preview"
+            />
+            <div className="card-body">
+              <h5 className="card-title">Outer Earth</h5>
+              <p className="card-text">
+                A space exploration app utilizing the NASA API. A team project
+                where I completed the full design.
+              </p>
+              <p className="card-text">
+                <Tooltip
+                  placement="left"
+                  TransitionComponent={Zoom}
+                  title="Github Repo"
+                  arrow
+                >
+                  <a href="https://github.com/koganp42/Outer_Earth">
+                    <GitHubIcon fontSize="large" className="gitIcon" />
+                  </a>
+                </Tooltip>
+                <Tooltip
+                  placement="right"
+                  TransitionComponent={Zoom}
+                  title="Launch application"
+                >
+                  <a href="https://koganp42.github.io/Outer_Earth/">
                     <ExitToAppIcon fontSize="large" className="linkIcon" />
                   </a>
                 </Tooltip>
