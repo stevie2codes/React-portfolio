@@ -18,9 +18,9 @@ function About(props) {
             </span>
             Full-stack Web Developer with a background in business ownership.
             While attaining a certificate for full-stack development at
-            Vanderbilt University, I've discovered passions for creative design
-            diving deep into this field of development. Excited for life long
-            journey into learning new technologies daily!
+            Vanderbilt University, I've discovered an obsession for creative
+            design diving deep into this field of development. Excited for life
+            long journey into learning new technologies daily!
           </p>
           <div className="list col-md-6">
             <p className="skillList">
@@ -28,8 +28,8 @@ function About(props) {
                 <span>Studied Skills</span>
               </span>
               MERN STACK- Mongo, Express,React, Node, CSS, SASS, bootstrap,
-              JavaScript, jQuery, MySQL, Mongoose, git, github, MVC Agile,SCRUM
-              and team projects.
+              JavaScript animaition libraries, JavaScript, jQuery, MySQL,
+              Mongoose, git, github, MVC Agile,SCRUM and team projects.
             </p>
           </div>
         </div>
