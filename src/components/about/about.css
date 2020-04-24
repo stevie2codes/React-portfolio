@@ -8,7 +8,9 @@
   border-radius: 50%;
   width: 33vh;
   height: 33vh;
+
   background-color: rgb(201, 145, 71);
+  border: 1px solid rgb(214, 214, 214);
 }
 
 .portPic {
@@ -32,6 +34,7 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
+  background-color: rgb(15, 15, 15);
 }
 
 .aboutSpan {
@@ -39,4 +42,5 @@
   color: rgb(201, 145, 71);
   font-family: "Oswald", sans-serif;
   border-bottom: 3px solid rgb(26, 26, 26);
+  background-color: rgb(15, 15, 15);
 }

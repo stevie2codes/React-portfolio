@@ -5,6 +5,7 @@ import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
 import About from "./components/about/about";
 import HomeContent from "./components/home/homeContent";
+
 function App() {
   return (
     <div>
@@ -28,6 +29,7 @@ function App() {
             </div>
           </div>
         </div>
+
         <Route exact path="/" component={HomeContent} />
         <Route path="/About" component={About} />
         <Route path="/Projects" component={Projects} />

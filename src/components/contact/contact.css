@@ -12,6 +12,7 @@
   border: 1px solid rgb(20, 20, 20);
   box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
 }
+
 .contactTextHead {
   font-size: 20vmin;
   display: flex;
@@ -20,6 +21,11 @@
   margin: 0 auto;
   font-family: "Oswald", sans-serif;
   color: rgb(251, 239, 239);
+}
+
+.homeIconList {
+  background-color: rgb(15, 15, 15);
+  z-index: 1000;
 }
 .homeIconList a {
   color: rgb(201, 145, 71);

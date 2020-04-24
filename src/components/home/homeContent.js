@@ -1,7 +1,6 @@
 import React from "react";
 import "./home.css";
 import HomeCube from "../home_cube";
-
 const HomeContent = props => {
   return (
     <React.Fragment>
