@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.css";
-import HomeCube from "../home_cube";
+// import HomeCube from "../home_cube";
 const HomeContent = props => {
   return (
     <React.Fragment>
-      <HomeCube className="cube" />
+      {/* <HomeCube className="cube" /> */}
       <div className="mainContent ">
         <div className="nameContainer row">
           <h1 className="webText animated fadeIn slow col-1">STEPHEN WEBB</h1>

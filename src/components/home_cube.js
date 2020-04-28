@@ -9,7 +9,8 @@ class HomeCube extends Component {
     this.scene = new THREE.Scene();
     //ADD CAMERA
     this.camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    this.camera.position.z = 40;
+    this.camera.position.set(150, 0, 0);
+    this.camera.lookAt(new THREE.Vector3());
     //ADD RENDERER
     this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     this.renderer.setPixelRatio(window.devicePixelRatio);
@@ -18,21 +19,19 @@ class HomeCube extends Component {
     this.mount.appendChild(this.renderer.domElement);
 
     //ADD CUBE
+    //TorusKnotBufferGeometry
+    const geometry = new THREE.TorusKnotGeometry(70, 9.6, 493, 80, 3, 1);
 
-    const geometry = new THREE.TorusKnotBufferGeometry(20, 4.6, 583, 60, 2, 4);
-
-    // const texture = new THREE.TextureLoader().load(
-    //   "https://res.cloudinary.com/df9q0hnuw/image/upload/v1586534332/default_tq2jz7.png"
-    // );
-    const material = new THREE.MeshBasicMaterial({
-      // map: texture,
-      color: 0x742020,
-      wireframe: true,
-      transparent: true,
-      opacity: 0.3
+    const light = new THREE.DirectionalLight("rgb(116, 32, 32)", 2);
+    light.position.set(3, 2, 0);
+    this.scene.add(light);
+    const material = new THREE.MeshPhongMaterial({
+      color: "rgb(116, 32, 32)"
+      // shininess: "6000"
     });
 
     this.cube = new THREE.Mesh(geometry, material);
+
     this.scene.add(this.cube);
     this.start();
   }
@@ -50,9 +49,10 @@ class HomeCube extends Component {
     cancelAnimationFrame(this.frameId);
   };
   animate = () => {
-    this.cube.rotation.x += 0.006;
-    this.cube.rotation.y += 0.006;
-    this.cube.rotation.z += 0.006;
+    // this.cube.rotation.x += 0.003;
+    this.cube.rotation.y += 0.003;
+    this.cube.rotation.z += 0.02;
+
     this.renderScene();
     this.frameId = window.requestAnimationFrame(this.animate);
   };
@@ -67,9 +67,10 @@ class HomeCube extends Component {
           style={{
             width: "100vw",
             height: "100vh",
-            position: "absolute"
-            // right: "15vw",
-            // bottom: "10px"
+            position: "fixed"
+
+            // left: "25vw"
+            // bottom: "0px"
           }}
           ref={mount => {
             this.mount = mount;

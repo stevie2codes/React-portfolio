@@ -9,8 +9,9 @@
   width: 33vh;
   height: 33vh;
 
-  background-color: rgb(201, 145, 71);
-  border: 1px solid rgb(214, 214, 214);
+  background-color: #212121;
+  opacity: 0.7;
+  border: 1px solid brown;
 }
 
 .portPic {
