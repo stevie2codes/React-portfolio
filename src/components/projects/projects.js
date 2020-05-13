@@ -13,7 +13,7 @@ function Projects(props) {
         <h1 className="sectionTag">Projects</h1>
       </div>
       <FadeIn transitionDuration={1200}>
-        <div className="container ">
+        <div className=" ">
           <div className="card-columns">
             <div className="card">
               <img
@@ -51,7 +51,41 @@ function Projects(props) {
                 </p>
               </div>
             </div>
-
+            <div className="card">
+              <img
+                src={require("../projectPics/atlas.png")}
+                className="card-img-top"
+                alt="Outer earth preview"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Atlas-Photo</h5>
+                <p className="card-text">
+                  A Photographers portfolio built on React and deployed with
+                  AWS. Utilizing Cloudfront , S3 buckets and route53
+                </p>
+                <p className="card-text">
+                  <Tooltip
+                    placement="left"
+                    TransitionComponent={Zoom}
+                    title="Github Repo"
+                    arrow
+                  >
+                    <a href="https://github.com/stevie2codes/JMG-Photo">
+                      <GitHubIcon fontSize="large" className="gitIcon" />
+                    </a>
+                  </Tooltip>
+                  <Tooltip
+                    placement="right"
+                    TransitionComponent={Zoom}
+                    title="Launch application"
+                  >
+                    <a href="https://atlas-photo.com/">
+                      <ExitToAppIcon fontSize="large" className="linkIcon" />
+                    </a>
+                  </Tooltip>
+                </p>
+              </div>
+            </div>
             <div className="card">
               <img
                 src={require("../projectPics/preview.png")}

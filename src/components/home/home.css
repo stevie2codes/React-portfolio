@@ -12,6 +12,7 @@
 
 .webText {
   font-family: "Oswald", sans-serif;
+  /* font-family: "Major Mono Display", monospace; */
   font-size: 20vmin;
   margin: 10px;
   letter-spacing: 2.3vw;
