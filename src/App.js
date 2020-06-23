@@ -14,7 +14,12 @@ function App() {
       <BrowserRouter>
         <div className="nav nav-pills d-flex justify-content-end">
           <div className="navigation">
-            <h1 className="logo">StephenWebb</h1>
+            <img
+              src={require("./components/projectPics/element.png")}
+              alt="newlogo"
+              className="logo"
+            />
+
             <div className="nav-items d-flex">
               <Link to="/" className="nav-link ">
                 Home

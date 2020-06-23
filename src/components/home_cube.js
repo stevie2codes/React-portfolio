@@ -9,7 +9,7 @@ class HomeCube extends Component {
     this.scene = new THREE.Scene();
     //ADD CAMERA
     this.camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000);
-    this.camera.position.set(150, 0, 0);
+    this.camera.position.set(180, 0, 0);
     this.camera.lookAt(new THREE.Vector3());
     //ADD RENDERER
     this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
@@ -20,18 +20,16 @@ class HomeCube extends Component {
 
     //ADD CUBE
     //TorusKnotBufferGeometry
-    const geometry = new THREE.TorusKnotGeometry(70, 9.6, 493, 80, 3, 1);
+    const geometry = new THREE.TorusKnotGeometry(100, 15, 1200, 30, 12, 6);
 
     const light = new THREE.DirectionalLight("rgb(116, 32, 32)", 2);
     light.position.set(3, 2, 0);
     this.scene.add(light);
     const material = new THREE.MeshPhongMaterial({
-      color: "rgb(116, 32, 32)"
-      // shininess: "6000"
+      color: "rgb(116, 32, 32)",
+      shininess: "6000"
     });
-
     this.cube = new THREE.Mesh(geometry, material);
-
     this.scene.add(this.cube);
     this.start();
   }
@@ -49,7 +47,7 @@ class HomeCube extends Component {
     cancelAnimationFrame(this.frameId);
   };
   animate = () => {
-    // this.cube.rotation.x += 0.003;
+    this.cube.rotation.x += 0.003;
     this.cube.rotation.y += 0.003;
     this.cube.rotation.z += 0.02;
 
@@ -68,9 +66,6 @@ class HomeCube extends Component {
             width: "100vw",
             height: "100vh",
             position: "fixed"
-
-            // left: "25vw"
-            // bottom: "0px"
           }}
           ref={mount => {
             this.mount = mount;

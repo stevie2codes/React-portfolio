@@ -23,6 +23,8 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
 }
 
 .gitIcon,

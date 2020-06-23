@@ -1,35 +1,24 @@
 .nameContainer {
-  display: flex;
-  justify-content: flex-start;
   margin-top: 20vh;
   margin-left: 20px;
   max-height: 20%;
-}
-.subText {
-  position: absolute;
-  left: 55px;
+  text-align: left;
 }
 
 .webText {
   font-family: "Oswald", sans-serif;
-  /* font-family: "Major Mono Display", monospace; */
   font-size: 20vmin;
-  margin: 10px;
-  letter-spacing: 2.3vw;
-  color: rgb(199, 199, 199);
+  letter-spacing: 15px;
+  color: rgb(214, 214, 214);
+  margin-top: -30px !important;
+  padding-left: 0 !important;
 }
 .designText {
-  font-size: 4vmin;
+  font-size: 3vmin;
   color: rgb(201, 145, 71);
-  font-family: "Oswald", sans-serif;
-  letter-spacing: 1.3vw;
-}
-.devText {
-  font-size: 4vmin;
-  color: rgb(201, 145, 71);
-  font-family: "Oswald", sans-serif;
-  line-height: 10;
-  letter-spacing: 2.3vw;
+  padding-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 10px;
 }
 
 .homeIconList {

@@ -4,17 +4,17 @@
   margin-bottom: 40px;
   width: 90vw;
   height: auto;
-  background-color: rgb(15, 15, 15);
+  background-color: rgba(15, 15, 15, 0.502);
+  backdrop-filter: blur(5px);
   color: rgb(214, 214, 214);
   font-family: "Oswald", sans-serif;
   padding: 20px;
   border-radius: 10px;
-  border: 1px solid rgb(20, 20, 20);
   box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
 }
 
 .contactTextHead {
-  font-size: 20vmin;
+  font-size: 15vmin;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -23,14 +23,11 @@
   color: rgb(251, 239, 239);
 }
 
-.homeIconList {
-  background-color: rgb(15, 15, 15);
-  z-index: 1000;
-}
 .homeIconList a {
   color: rgb(201, 145, 71);
   border: none;
   text-decoration-color: rgb(116, 32, 32);
+  font-family: "Montserrat", sans-serif;
 }
 
 .GitHubIcon,

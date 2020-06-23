@@ -8,3 +8,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(15, 15, 15);
 }
+
+@font-face {
+  font-family: "Custom";
+  src: url("./fonts/blackheat_line-webfont.woff2") format("woff2"),
+    url("./fonts/blackheat_line-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

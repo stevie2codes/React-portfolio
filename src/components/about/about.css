@@ -8,8 +8,8 @@
   border-radius: 50%;
   width: 33vh;
   height: 33vh;
-
-  background-color: #212121;
+  background-color: rgba(15, 15, 15, 0.502);
+  backdrop-filter: blur(5px);
   opacity: 0.7;
   border: 1px solid brown;
 }
@@ -29,13 +29,16 @@
 }
 .brand-state,
 .skillList {
-  font-size: 3vh;
+  font-size: 2.5vh;
+  line-height: 1.8;
   color: rgb(214, 214, 214);
-  font-family: "Oswald", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
-  background-color: rgb(15, 15, 15);
+  box-shadow: -4px -4px 14px rgba(26, 26, 26, 0.749), 4px 4px 14px rgb(0, 0, 0);
+  background-color: rgba(15, 15, 15, 0.502);
+  backdrop-filter: blur(10px);
+  text-align: center;
 }
 
 .aboutSpan {
@@ -43,5 +46,4 @@
   color: rgb(201, 145, 71);
   font-family: "Oswald", sans-serif;
   border-bottom: 3px solid rgb(26, 26, 26);
-  background-color: rgb(15, 15, 15);
 }
