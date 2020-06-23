@@ -1,11 +1,8 @@
 import React from "react";
 import "./home.css";
-// import HomeCube from "../home_cube";
-import Card from "../Card";
 const HomeContent = props => {
   return (
     <React.Fragment>
-      {/* <HomeCube className="cube" /> */}
       <div className="mainContent ">
         <div className="nameContainer ">
           <p className="designText animated slideInLeft slow">
