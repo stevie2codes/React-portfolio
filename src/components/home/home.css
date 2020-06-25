@@ -50,9 +50,3 @@
     margin-top: 50px;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .cube {
-    opacity: 0 !important;
-  }
-}

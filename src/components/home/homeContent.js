@@ -12,12 +12,12 @@ const HomeContent = props => {
     <React.Fragment>
       <div className="mainContent ">
         <div className="nameContainer ">
-          <p className="preHeadText animated slideInRight slow">Stephen</p>
+          <p className="preHeadText animated slideInUp slow">Stephen</p>
           <h1 className="webText animated fadeIn slow ">WEBB</h1>
-          <p className="subHeadText animated slideInLeft slow">
+          <p className="subHeadText animated slideInDown slow">
             Front-End Developer
           </p>
-          <p className="subHeadText animated slideInLeft slow">UI Designer</p>
+          <p className="subHeadText animated slideInDown slow">UI Designer</p>
         </div>
         <div className="iconList ">
           <a href="https://github.com/stevie2codes">

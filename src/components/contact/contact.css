@@ -10,11 +10,12 @@
   font-family: "Oswald", sans-serif;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: -4px -4px 14px rgb(26, 26, 26), 4px 4px 14px rgb(0, 0, 0);
+  box-shadow: -4px -4px 14px rgba(26, 26, 26, 0.486),
+    4px 4px 14px rgba(0, 0, 0, 0.281);
 }
 
 .contactTextHead {
-  font-size: 10vh;
+  font-size: 5vh;
   display: flex;
   justify-content: center;
   text-align: center;
