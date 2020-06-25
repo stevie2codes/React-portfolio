@@ -1,21 +1,51 @@
 .cardContainer {
-  width: 400px;
+  width: 500px;
   height: 600px;
+  padding: 20px;
   background-color: rgba(15, 15, 15, 0.502);
   backdrop-filter: blur(5px);
+  box-shadow: -4px -4px 14px rgba(26, 26, 26, 0.335),
+    4px 4px 14px rgba(0, 0, 0, 0.39);
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   border-radius: 8px;
+  margin: 5px;
 }
 .cardTitle,
 .cardDescription {
   text-align: center;
   color: whitesmoke;
+  padding: 10px;
+}
+.cardTitle {
+  font-family: "Cinzel Decorative", cursive;
+  color: rgb(201, 145, 71);
+  border-bottom: 1px solid grey;
+}
+.cardDescription {
+  font-family: "Raleway", sans-serif;
+  color: rgb(251, 239, 239);
 }
 .cardImage {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
   margin: 0 auto;
+  box-shadow: -4px -4px 14px rgba(26, 26, 26, 0.749), 4px 4px 14px rgb(0, 0, 0);
+}
+
+.cardIcons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.gitIcon,
+.linkIcon {
+  color: silver;
+}
+.gitIcon:hover,
+.linkIcon:hover {
+  color: #9e4d4d;
+  transform: scale(1.05);
+  transition: 200ms;
 }

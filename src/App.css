@@ -1,29 +1,32 @@
 .logo {
   position: absolute;
-  left: 45px;
-  color: rgb(201, 145, 71);
+  left: 5vw;
+  font-family: "Cinzel Decorative", cursive;
+  color: #9e4d4d;
   font-size: 4vmin;
-  margin-top: 20px;
-  width: 5vmin;
+  margin-top: 6vh;
+  cursor: pointer;
 }
 
 .nav-link {
-  margin-left: -20px;
-  margin-top: 10px;
-  color: rgb(216, 216, 216);
-  font-family: "Oswald", sans-serif;
-  font-size: 3vmin;
-  letter-spacing: 3px;
+  margin-left: -10px;
+  margin-right: 10px;
+  margin-top: 5vh;
+  color: #a0a0a0;
+  font-family: "Raleway", sans-serif;
+  font-size: 2vh;
+  letter-spacing: 1px;
   position: sticky;
 }
 .nav-link:hover {
-  color: rgb(201, 145, 71);
+  color: #9e4d4d;
   transform: scale(1.1);
 }
 
 .card-body,
 .quote {
-  background-color: rgb(15, 15, 15);
+  background-color: rgba(15, 15, 15, 0.502);
+  backdrop-filter: blur(5px);
   color: white;
-  font-family: "Oswald", sans-serif;
+  font-family: "Raleway", sans-serif;
 }

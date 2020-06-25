@@ -14,7 +14,7 @@ function Contact(props) {
         <div className="contactContainer container">
           <h3 className="contactTextHead">Lets get in touch!</h3>
 
-          <Icons />
+          <Icons fontSize="40vh" />
         </div>
       </FadeIn>
     </React.Fragment>

@@ -14,20 +14,20 @@
 }
 
 .contactTextHead {
-  font-size: 15vmin;
+  font-size: 10vh;
   display: flex;
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-  font-family: "Oswald", sans-serif;
-  color: rgb(251, 239, 239);
+  font-family: "Raleway", sans-serif;
+  color: silver;
 }
 
 .homeIconList a {
   color: rgb(201, 145, 71);
   border: none;
-  text-decoration-color: rgb(116, 32, 32);
-  font-family: "Montserrat", sans-serif;
+  text-decoration-color: #9e4d4d;
+  font-family: "Raleway", sans-serif;
 }
 
 .GitHubIcon,
@@ -35,8 +35,8 @@
 .mailIcon,
 .resumeIcon,
 .phoneIcon {
-  color: rgb(116, 32, 32);
-  margin: auto;
+  color: #8a3838;
+  margin: 10px auto;
 }
 .GitHubIcon:hover,
 .linkInIcon:hover,

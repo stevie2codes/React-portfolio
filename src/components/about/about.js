@@ -28,9 +28,10 @@ function About(props) {
                 <span className="aboutSpan d-flex justify-content-center">
                   <span>Studied Skills</span>
                 </span>
-                MERN STACK- Mongo, Express,React, Node, CSS, SASS, bootstrap,
-                JavaScript animaition libraries, JavaScript, jQuery, MySQL,
-                Mongoose, git, github, MVC Agile,SCRUM and team projects.
+                MERN STACK- Mongo, Express,React,React Native, Node, CSS, SASS,
+                bootstrap, JavaScript animaition libraries, JavaScript, jQuery,
+                MySQL, Mongoose,AWS, git, github, MVC Agile,SCRUM and team
+                projects. Figma Design Sytems . Ui/Ux Design principles.
               </p>
             </div>
           </div>

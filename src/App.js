@@ -5,20 +5,16 @@ import Projects from "./components/projects/projects";
 import Contact from "./components/contact/contact";
 import About from "./components/about/about";
 import HomeContent from "./components/home/homeContent";
-import HomeCube from "./components/home_cube";
 
 function App() {
   return (
     <div>
-      <HomeCube />
       <BrowserRouter>
         <div className="nav nav-pills d-flex justify-content-end">
           <div className="navigation">
-            <img
-              src={require("./components/projectPics/element.png")}
-              alt="newlogo"
-              className="logo"
-            />
+            <Link to="/">
+              <h3 className="logo">W</h3>
+            </Link>
 
             <div className="nav-items d-flex">
               <Link to="/" className="nav-link ">
