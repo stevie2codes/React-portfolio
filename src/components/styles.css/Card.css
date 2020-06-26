@@ -10,7 +10,7 @@
   justify-content: space-evenly;
   flex-direction: column;
   border-radius: 8px;
-  margin: 5px;
+  margin: 10px;
 }
 .cardTitle,
 .cardDescription {
@@ -21,7 +21,7 @@
 .cardTitle {
   font-family: "Cinzel Decorative", cursive;
   color: rgb(201, 145, 71);
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #9e4d4d;
 }
 .cardDescription {
   font-family: "Raleway", sans-serif;
