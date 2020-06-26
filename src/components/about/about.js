@@ -17,11 +17,12 @@ function About(props) {
               <span className="aboutSpan d-flex justify-content-center">
                 <span>About Me</span>
               </span>
-              Full-stack Web Developer with a background in business ownership.
-              While attaining a certificate for full-stack development at
-              Vanderbilt University, I've discovered an obsession for creative
-              design diving deep into this field of development. Excited for
-              life long journey into learning new technologies daily!
+              Front-End Web Developer, husband, father and runner. A background
+              in business ownership and a passion for creative endeavors.
+              Studied full-stack web development at Vanderbilt University where
+              I axcelled in UI Design. Diving deep into this field of
+              development I'm excited for life long journey into learning new
+              technologies daily!
             </p>
             <div className="list col-md-6">
               <p className="skillList">
