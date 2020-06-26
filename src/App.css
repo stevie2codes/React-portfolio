@@ -1,39 +1,3 @@
-.logo {
-  position: absolute;
-  left: 5vw;
-  font-family: "Cinzel Decorative", cursive;
-  color: #9e4d4d;
-  font-size: 4vmin;
-  margin-top: 6vh;
-  cursor: pointer;
-}
-
-.nav-link {
-  margin-left: -10px;
-  margin-right: 10px;
-  margin-top: 5vh;
-  color: #a0a0a0;
-  font-family: "Raleway", sans-serif;
-  font-size: 2vh;
-  letter-spacing: 1px;
-  position: sticky;
-  text-decoration: none;
-}
-.nav-link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 1px;
-  background-color: #9e4d4d;
-  transition: width 0.4s;
-}
-.nav-link:hover::after {
-  width: 100%;
-}
-.nav-link:hover {
-  color: #727171;
-  transform: scale(1.1);
-}
 .card-body,
 .quote {
   background-color: rgba(15, 15, 15, 0.502);
