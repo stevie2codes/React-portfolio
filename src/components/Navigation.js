@@ -12,16 +12,17 @@ const onOpen = () => {
 function Navigation(props) {
   return (
     <div>
+      <div onClick={() => onOpen()} className="hamburger">
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
       <BrowserRouter>
         <Link to="/">
           <h3 className="logo">W</h3>
         </Link>
+
         <div className="nav nav-pills d-flex">
-          <div onClick={() => onOpen()} className="hamburger">
-            <div className="line"></div>
-            <div className="line"></div>
-            <div className="line"></div>
-          </div>
           <div className="navigation">
             <div className="nav-items d-flex">
               <Link onClick={() => onOpen()} to="/" className="nav-link ">
