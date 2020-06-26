@@ -3,7 +3,7 @@ import "./about.css";
 
 function About(props) {
   return (
-    <React.Fragment>
+    <div className="aboutContainer">
       <div className="element"></div>
       <img
         src={require("../projectPics/FullSizeRender.png")}
@@ -37,7 +37,7 @@ function About(props) {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 
