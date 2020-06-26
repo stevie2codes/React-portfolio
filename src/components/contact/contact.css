@@ -38,6 +38,7 @@
 .phoneIcon {
   color: #8a3838;
   margin: 10px auto;
+  border-radius: 50%;
 }
 .GitHubIcon:hover,
 .linkInIcon:hover,
@@ -49,5 +50,5 @@
   transform: scale(1.2);
   transition: ease-in-out;
   transition-duration: 0.2s;
-  text-decoration-line: overline;
+  text-decoration-line: underline;
 }

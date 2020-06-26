@@ -12,8 +12,8 @@ const Icons = props => {
     display: "block",
     margin: 20,
     // color: "rgb(201, 145, 71)",
-    backgroundColor: "rgb(15, 15, 15)",
-    boxShadow: `-4px -4px 14px rgb(30, 30, 30), 4px 4px 14px rgb(0, 0, 0)`,
+    backgroundColor: "rgb(35, 35, 35)",
+    boxShadow: `-4px -4px 14px rgb(40, 40, 40), 4px 4px 14px rgba(0, 0, 0,0.3)`,
     padding: "10",
     borderRadius: `50%`
   };
