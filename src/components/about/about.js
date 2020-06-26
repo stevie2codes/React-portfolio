@@ -20,8 +20,8 @@ function About(props) {
               Front-End Web Developer, husband, father and runner. A background
               in business ownership and a passion for creative endeavors.
               Studied full-stack web development at Vanderbilt University where
-              I axcelled in UI Design. Diving deep into this field of
-              development I'm excited for life long journey into learning new
+              I excelled in UI Design. Diving deep into this field of
+              development, I'm excited for a life long journey into learning new
               technologies daily!
             </p>
             <div className="list col-md-6">
