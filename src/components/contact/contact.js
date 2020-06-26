@@ -9,7 +9,7 @@ function Contact(props) {
         <h1 className="sectionTag">Contact</h1>
       </div>
 
-      <div className="contactContainer container">
+      <div className="contactContainer cardWrapper">
         <h3 className="contactTextHead">Lets get in touch!</h3>
 
         <Icons fontSize="40vh" />

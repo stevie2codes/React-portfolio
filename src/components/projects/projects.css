@@ -13,9 +13,13 @@
 }
 
 .cardWrapper {
-  margin-top: 45vh;
+  position: absolute;
+  width: 90vw;
+  top: 45%;
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  left: 50%;
+  transform: translate(-50%);
 }
