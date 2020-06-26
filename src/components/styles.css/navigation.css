@@ -42,12 +42,13 @@
 
 @media screen and (max-width: 768px) {
   .line {
-    width: 30px;
     height: 3px;
+    width: 40px;
     background-color: #727171;
     margin: 5px;
     border-radius: 100px;
   }
+
   .hamburger {
     position: absolute;
     top: 5%;
@@ -73,7 +74,6 @@
     clip-path: circle(1200px at 90% -10%);
     -webkit-clip-path: circle(1200px at 90% -10%);
     pointer-events: all;
-    position: relative;
   }
   .nav-items {
     align-items: center;
