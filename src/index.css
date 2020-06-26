@@ -15,11 +15,3 @@ body {
   width: 100vw;
   height: 100vh;
 }
-
-@font-face {
-  font-family: "Custom";
-  src: url("./fonts/blackheat_line-webfont.woff2") format("woff2"),
-    url("./fonts/blackheat_line-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
