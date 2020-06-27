@@ -25,7 +25,7 @@
 
 .brand-state,
 .skillList {
-  font-size: 2vh;
+  font-size: 1.1rem;
   line-height: 1.8;
   color: rgb(214, 214, 214);
   font-family: "Raleway", sans-serif;
@@ -49,4 +49,16 @@
 .aboutSpan span {
   font-family: "Cinzel Decorative", cursive;
   margin-bottom: 10px;
+}
+
+.aboutCardContainer {
+  position: absolute;
+  width: 90vmin;
+  top: 45%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 50%;
+  transform: translate(-50%);
 }

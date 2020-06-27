@@ -11,7 +11,7 @@ function About(props) {
         alt="pic"
       />
 
-      <div className="cardWrapper">
+      <div className="aboutCardContainer">
         <div className="aboutText row ">
           <p className="brand-state col-md-6 ">
             <span className="aboutSpan d-flex justify-content-center">
