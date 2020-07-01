@@ -1,0 +1,21 @@
+.sectionAnimation {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+}
+
+.ContactAnimation {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+}
+
+@media only screen and (max-width: 600px) {
+  .ContactAnimation {
+    top: 28%;
+  }
+}

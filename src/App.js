@@ -4,7 +4,11 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 
 function App() {
-  return <Navigation />;
+  return (
+    <React.Fragment>
+      <Navigation />
+    </React.Fragment>
+  );
 }
 
 export default App;

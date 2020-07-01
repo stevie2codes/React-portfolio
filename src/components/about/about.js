@@ -1,10 +1,11 @@
 import React from "react";
 import "./about.css";
 
+import SectionAnimation from "../SectionAnimation";
 function About(props) {
   return (
     <div className="aboutContainer">
-      <div className="element"></div>
+      <SectionAnimation />
       <img
         src={require("../projectPics/FullSizeRender.png")}
         className="portPic"

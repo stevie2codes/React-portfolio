@@ -5,10 +5,12 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import AttachFileIcon from "@material-ui/icons/AttachFile";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import "../projectPics/Stephen-Webb.pdf";
+import HomeAnimation from "../HomeAnimation";
 
 const HomeContent = props => {
   return (
     <React.Fragment>
+      <HomeAnimation />
       <div className="mainContent ">
         <div className="nameContainer ">
           <p className="preHeadText animated slideInUp slow">Stephen</p>
