@@ -38,7 +38,7 @@
 .aboutCardContainer {
   position: absolute;
   width: 90vmin;
-  top: 45%;
+  top: 50%;
   margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
