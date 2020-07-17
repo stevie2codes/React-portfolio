@@ -2,7 +2,7 @@ import React from "react";
 import "./projects.css";
 import Card from "../Card";
 import CardData from "../../utils/CardData";
-
+import { motion } from "framer-motion";
 import SectionAnimation from "../SectionAnimation";
 
 function Projects(props) {
@@ -11,7 +11,11 @@ function Projects(props) {
       <h1 className="sectionTag">Projects</h1>
       <SectionAnimation />
 
-      <div className="cardWrapper">
+      <motion.div
+        className="cardWrapper"
+        initial={{ opacity: 0, left: -100 }}
+        animate={{ opacity: 1, left: "50%" }}
+      >
         {CardData.map(data => (
           <Card
             key={data.title}
@@ -22,7 +26,7 @@ function Projects(props) {
             githubLink={data.githubLink}
           />
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }
