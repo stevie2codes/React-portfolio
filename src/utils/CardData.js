@@ -17,6 +17,13 @@ const CardData = [
     siteLink: `https://atlas-photo.com/`
   },
   {
+    title: "React Design-System",
+    description: `A growing system of React Components utilizing styled components, Framer Motion, And storybook`,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1595948760/ProjectPreviews/react-design_ezvczi.png`,
+    githubLink: `https://github.com/stevie2codes/react-design-sytem`,
+    siteLink: `https://stephens-design-system.netlify.app`
+  },
+  {
     title: "Outer Earth",
     description: ` A space exploration app utilizing the NASA API. A team project
     where I completed the full design.`,
