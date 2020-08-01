@@ -17,9 +17,16 @@ const CardData = [
     siteLink: `https://atlas-photo.com/`
   },
   {
+    title: "Vue-MovieDB",
+    description: ` Getting familiar with the Vue framework . Utilizing The Movie database api to fetch Movies in theatres and a search function to search for any movie within the database. Each movie selected will send you to a details page to provide you with the movies title, posterImage, rating, runtime and description.`,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1596306345/ProjectPreviews/moviePreview_uvpixb.png`,
+    githubLink: `https://github.com/stevie2codes/vue-movie-db`,
+    siteLink: `https://vue-moviedb.netlify.app/`
+  },
+  {
     title: "React Design-System",
     description: `A growing system of React Components utilizing styled components, Framer Motion, And storybook`,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1595948760/ProjectPreviews/react-design_ezvczi.png`,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1596306692/ProjectPreviews/designReact_lh5tuv.png`,
     githubLink: `https://github.com/stevie2codes/react-design-sytem`,
     siteLink: `https://stephens-design-system.netlify.app`
   },
