@@ -39,6 +39,13 @@ const CardData = [
     siteLink: `https://koganp42.github.io/Outer_Earth/`
   },
   {
+    title: "Vue_The_Weather",
+    description: `Weather application utilizing Vue.js and the weather api`,
+    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/c_scale,h_500,w_500/v1596741506/ProjectPreviews/vueWeather_1_kkdlwi.png`,
+    githubLink: `https://github.com/stevie2codes/Vue_The_Weather`,
+    siteLink: `https://vue-the-weather.netlify.app/`
+  },
+  {
     title: "Nutri-Find",
     description: ` A recipe keeper saving recipes in a database and searching a 3rd
     party API to find new ones!`,
@@ -53,14 +60,7 @@ const CardData = [
     githubLink: `https://github.com/stevie2codes/React-Employee-Directory`,
     siteLink: `https://fast-mesa-07521.herokuapp.com/`
   },
-  {
-    title: "Weather Dashboard",
-    description: `Weather application calling out to 3rd party API w/ AJAX and
-    utilizing jQuery for DOM manipulation.`,
-    image: `https://res.cloudinary.com/df9q0hnuw/image/upload/v1593121260/ProjectPreviews/weather_xsw3li.png`,
-    githubLink: `https://github.com/stevie2codes/Weather-Dashboard`,
-    siteLink: `https://stevie2codes.github.io/Weather-Dashboard/`
-  },
+
   {
     title: "What the health?",
     description: ` A timed health quiz utilizing jquery DOM manipulation and local
