@@ -54,6 +54,12 @@ const ParticlesElement = () => {
                     "https://res.cloudinary.com/df9q0hnuw/image/upload/v1595004461/Logos/kisspng-javascript-logo-html-comment-blog-5ae63c23139110.5436874015250381150802_waww6m.png",
                   height: 20,
                   width: 20
+                },
+                {
+                  src:
+                    "https://res.cloudinary.com/df9q0hnuw/image/upload/v1596753730/Logos/vuelogo_guf4lm.png",
+                  height: 20,
+                  width: 20
                 }
               ]
             },
